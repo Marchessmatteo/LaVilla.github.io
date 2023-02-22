@@ -29,4 +29,23 @@
   transform: translate(-50%, -50%);
   color: white;
 }
+.carousel-control-prev .carousel-control-next {
+  background-color: green;
+  color: white;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+  background-color: transparent;
+}
+
+
 
