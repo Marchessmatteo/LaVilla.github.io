@@ -1,0 +1,32 @@
+.navbar-nav {
+  margin-left: auto;
+}
+.bgimage {
+    height:100vh;
+    background: url('../img/big.images.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 2.5rem;
+    margin-top: 350px;
+    font-family: Georgia, Times New Roman, serif;
+  font-style: italic;
+  }
+
+.hero_desc {
+    font-size: 1rem;
+    font-family: Georgia, Times New Roman, serif;
+  font-style: italic;
+  margin-top:50px;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
