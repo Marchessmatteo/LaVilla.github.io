@@ -13,31 +13,35 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-custom fixed-top">
+    
     <div class="container">
-      <a class="navbar-brand" href="#">Villa Pepoli</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#chisiamo">Chi siamo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#servizi">Servizi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contatti">Contatti</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+        <a class ="navbar-brand" href="#">Villa Pepoli</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#chisiamo">Chi Siamo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servizi">Servizi</a>
+                </li>
+
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#contatti">Contatti</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </nav> 
   
-      <section class="bgimage" id="home">
+  
+      <section class="bgimage" id="home">   
         <div class="container-fluid">
             <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
@@ -53,7 +57,7 @@
         <div class="card">
           <img src="./assets/img/foto1.JPG" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title that wraps to a new line</h5>
+            <h3 class="card-title">Card title that wraps to a new line</h3>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
         </div>
@@ -70,7 +74,7 @@
         <div class="card">
           <img src="./assets/img/foto2.JPG" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h3 class="card-title">Card title</h3>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
@@ -87,7 +91,7 @@
         </div>
         <div class="card text-center">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h3 class="card-title">Card title</h3>
             <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
@@ -107,7 +111,7 @@
         </div>
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h3 class="card-title">Card title</h3>
             <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
@@ -135,22 +139,22 @@
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselServizio1" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+                  <span class="visually-hidden"></span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselServizio1" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                  <span class="visually-hidden"></span>
                 </button>
               </div>
               <div class="card-body">
-                <h5 class="card-title fw-bold mb-3">Servizio 1</h5>
+                <h3 class="card-title fw-bold mb-3">Agriturismo e Cerimonie</h3>
                 <p class="card-text">Descrizione del servizio 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
             </div>
           </div>
               <div class="col-md-4">
                 <div class="card card-servizio text-center border-0">
-                  <div id="carouselServizio1" class="carousel slide" data-bs-ride="carousel">
+                  <div id="carouselServizio2" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img src="./assets/img/foto1.JPG" class="card-img-top" alt="Servizio 1">
@@ -162,24 +166,24 @@
                         <img src="./assets/img/foto3.JPG" class="card-img-top" alt="Servizio 3">
                       </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselServizio1" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselServizio2" data-bs-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
+                      <span class="visually-hidden"></span>  <!-- precedente  -->
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselServizio1" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselServizio2" data-bs-slide="next">
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
+                      <span class="visually-hidden"></span> <!-- next -->
                     </button>
                   </div>
                   <div class="card-body">
-                    <h5 class="card-title fw-bold mb-3">Servizio 2</h5>
+                    <h3 class="card-title fw-bold mb-3">Chiesa Consacrata</h3>
                     <p class="card-text">Descrizione del servizio 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="card card-servizio text-center border-0">
-                  <div id="carouselServizio1" class="carousel slide" data-bs-ride="carousel">
+                  <div id="carouselServizio3" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img src="./assets/img/foto1.JPG" class="card-img-top" alt="Servizio 1">
@@ -191,17 +195,17 @@
                         <img src="./assets/img/foto3.JPG" class="card-img-top" alt="Servizio 3">
                       </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselServizio1" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselServizio3" data-bs-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
+                      <span class="visually-hidden"></span>     <!-- precedente  -->
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselServizio1" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselServizio3" data-bs-slide="next">
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
+                      <span class="visually-hidden"></span>      <!-- next -->
                     </button>
                   </div>
                   <div class="card-body">
-                    <h5 class="card-title fw-bold mb-3">Servizio 3</h5>
+                    <h3 class="card-title fw-bold mb-3">Sei camere da letto</h3>
                     <p class="card-text">Descrizione del servizio 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
                 </div>
@@ -210,7 +214,7 @@
                 <div class="row">
                   <div class="col-md-4">
                     <div class="card card-servizio text-center border-0">
-                      <div id="carouselServizio1" class="carousel slide" data-bs-ride="carousel">
+                      <div id="carouselServizio4" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <img src="./assets/img/foto1.JPG" class="card-img-top" alt="Servizio 1">
@@ -222,24 +226,24 @@
                             <img src="./assets/img/foto3.JPG" class="card-img-top" alt="Servizio 3">
                           </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselServizio1" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselServizio4" data-bs-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
+                          <span class="visually-hidden"></span>                 <!-- precedente  -->
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselServizio1" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselServizio4" data-bs-slide="next">
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
+                          <span class="visually-hidden"></span>     <!-- next -->
                         </button>
                       </div>
                       <div class="card-body">
-                        <h5 class="card-title fw-bold mb-3">Servizio 4</h5>
+                        <h3 class="card-title fw-bold mb-3">Orto botanico e Fattoria didattica</h3>
                         <p class="card-text">Descrizione del servizio 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="card card-servizio text-center border-0">
-                      <div id="carouselServizio1" class="carousel slide" data-bs-ride="carousel">
+                      <div id="carouselServizio5" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <img src="./assets/img/foto1.JPG" class="card-img-top" alt="Servizio 1">
@@ -251,24 +255,24 @@
                             <img src="./assets/img/foto3.JPG" class="card-img-top" alt="Servizio 3">
                           </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselServizio1" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselServizio5" data-bs-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
+                          <span class="visually-hidden"></span>            <!-- precedente  -->
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselServizio1" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselServizio5" data-bs-slide="next">
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
+                          <span class="visually-hidden"></span>      <!-- next -->
                         </button>
                       </div>
                       <div class="card-body">
-                        <h5 class="card-title fw-bold mb-3">Servizio 5</h5>
+                        <h3 class="card-title fw-bold mb-3">Mulino mauseale </h3>
                         <p class="card-text">Descrizione del servizio 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="card card-servizio text-center border-0">
-                      <div id="carouselServizio1" class="carousel slide" data-bs-ride="carousel">
+                      <div id="carouselServizio6" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <img src="./assets/img/foto1.JPG" class="card-img-top" alt="Servizio 1">
@@ -280,17 +284,17 @@
                             <img src="./assets/img/foto3.JPG" class="card-img-top" alt="Servizio 3">
                           </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselServizio1" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselServizio6" data-bs-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
+                          <span class="visually-hidden"></span>         <!-- precedente  -->
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselServizio1" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselServizio6" data-bs-slide="next">
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
+                          <span class="visually-hidden"></span>    <!-- next -->
                         </button>
                       </div>
                       <div class="card-body">
-                        <h5 class="card-title fw-bold mb-3">Servizio 6</h5>
+                        <h3 class="card-title fw-bold mb-3">Cantina e sala congressi</h3>
                         <p class="card-text">Descrizione del servizio 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                       </div>
                     </div>
