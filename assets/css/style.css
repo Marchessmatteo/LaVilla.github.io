@@ -1,6 +1,35 @@
-.navbar-nav {
-  margin-left: auto;
+.bg-custom {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.2) 70%, rgba(0, 0, 0, 0.1) 100%);
 }
+
+.navbar a {
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  color: #fff;
+}
+
+.navbar a[href^="#"] {
+  padding: 10px 15px;
+}
+
+@media (max-width: 767px) {
+  .navbar a[href^="#"] {
+    padding: 10px 0;
+  }
+}
+
+.scroll {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
 .bgimage {
     height:100vh;
     background: url('../img/big.images.jpg');
@@ -45,7 +74,8 @@
 .carousel-control-next-icon {
   filter: invert(100%);
   background-color: transparent;
-}
+  }
+
 
 
 
