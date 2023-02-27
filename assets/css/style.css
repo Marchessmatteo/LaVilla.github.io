@@ -25,11 +25,6 @@
   scroll-behavior: smooth;
 }
 
-
-
-
-
-
 .bgimage {
     height:100vh;
     background: url('../img/big.images.jpg');
@@ -44,7 +39,7 @@
   font-style: italic;
   }
 
-.hero_desc {
+.hero_desc  {
     font-size: 1rem;
     font-family: Georgia, Times New Roman, serif;
   font-style: italic;
@@ -58,6 +53,7 @@
   transform: translate(-50%, -50%);
   color: white;
 }
+
 .carousel-control-prev .carousel-control-next {
   background-color: green;
   color: white;
@@ -75,6 +71,23 @@
   filter: invert(100%);
   background-color: transparent;
   }
+  .card-text .p, .card p {
+    font-family: "Times New Roman", Times, serif;
+  }
+  h1, h2, h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    position: relative;
+  }
+  .custom-bg {
+    background-color:#e0d6b7;
+    }
+  div.card.custom-card {
+  border-radius: 10px;
+}
+
+  
+  
 
 
 
