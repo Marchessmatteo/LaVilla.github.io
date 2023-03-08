@@ -5,5 +5,6 @@ $(document).on('scroll', function() {
       $('.navbar').removeClass('navbar-scrolled');
     }
   });
+  
 
  
