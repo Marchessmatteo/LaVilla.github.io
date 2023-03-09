@@ -15,22 +15,17 @@ $(document).on('scroll', function() {
     }
   }
   
+  
   document.addEventListener('DOMContentLoaded', function(){
     for(var i = 0; i < pages.length; i++) {
       pages[i].pageNum = i + 1;
       pages[i].onclick=function() {
-        if (this.pageNum % 2 === 0) {
+        if (this.classList.contains('flipped')) {
           this.classList.remove('flipped');
-          this.previousElementSibling.classList.remove('flipped');
+          this.nextElementSibling.classList.remove('flipped');
         } else {
           this.classList.add('flipped');
-          this.nextElementSibling.classList.add('flipped');
-        }
-  
-        if (this.pageNum === pages.length) {
-          setTimeout(function() {
-            pages[0].classList.remove('flipped');
-          }, 1000);
+          this.previousElementSibling.classList.add('flipped');
         }
       }
     }

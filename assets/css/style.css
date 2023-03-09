@@ -241,21 +241,16 @@
           width: 100%;
           padding: 0;
         }
+         }
         .page {
           width: 100%;
            }
         
-        @media screen and (max-width: 600px) {
-          .page {
-            padding: 10px;
-            font-size: 16px;
-          }
-        }
         .page img  {
           max-width: 100%;
           height: auto;
         }
-      
+        
    
     
     
