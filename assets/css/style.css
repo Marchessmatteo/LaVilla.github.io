@@ -105,6 +105,7 @@
       border: 1px solid grey;
       border-radius: 10px;
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+      margin-bottom: 50px;
     }   
     .book {
       transition: opacity 0.4s 0.2s;
@@ -235,21 +236,45 @@
         color: #221f1f;
         font-size: 16px;
       }
-      @media only screen and (max-width: 768px) {
-        /* Stili per schermi con larghezza massima di 768px (tablet e smartphone) */
-        .container {
-          width: 100%;
-          padding: 0;
-        }
-         }
         .page {
-          width: 100%;
+          width: 90%;
            }
         
         .page img  {
           max-width: 100%;
           height: auto;
         }
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+        @media (max-width: 480px) {
+          .page {
+            width: 90%;
+          }
+        }
+        
+        .fa-facebook, .fa-instagram {
+          color: #3b5998;
+       font-size: 40px;
+        }
+        
+        .fa-instagram {
+          color: #E4405F;
+          font-size: 40px; 
+        }
+        footer{
+          background: linear-gradient(to bottom, #e0d6b7, #d0b080 25%, #bb8a56 50%, #a36a35 75%,rgb(175, 77, 46));
+
+
+        }
+        #footer * {
+          color:black;
+        }
+        
+       
+     
+        
         
    
     

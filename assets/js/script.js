@@ -30,4 +30,28 @@ $(document).on('scroll', function() {
       }
     }
   });
+
+  const books = document.querySelectorAll('.book');
+
+books.forEach(book => {
+  book.addEventListener('mouseover', () => {
+    book.querySelector('.cover').style.transform = 'rotateY(-180deg)';
+    book.querySelector('.pages').style.transform = 'rotateY(-180deg)';
+  });
+
+  book.addEventListener('mouseout', () => {
+    book.querySelector('.cover').style.transform = 'rotateY(0deg)';
+    book.querySelector('.pages').style.transform = 'rotateY(0deg)';
+  });
+});
+
+$('a[href^="#"]').on('click', function(event) {
+  var target = $(this.getAttribute('href'));
+  if (target.length) {
+      event.preventDefault();
+      $('html, body').stop().animate({
+          scrollTop: target.offset().top
+      }, 1000);
+  }
+});
   
