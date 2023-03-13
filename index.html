@@ -178,6 +178,68 @@
                   </div>
                 </div>
               </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">  
+                   <div class="card card-servizio text-center border-0">
+                      <div id="carouselServizio1" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./assets/img/chiesa.jpeg" class="card-img-top" alt="Servizio 1">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./assets/img/chiesa.jpeg" class="card-img-top" alt="Servizio 2">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./assets/img/chiesa.jpeg" class="card-img-top" alt="Servizio 3">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselServizio1" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselServizio1" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden"></span>
+                        </button>
+                      </div>
+                      <div class="card-body">
+                        <h3 class="card-title fw-bold mb-3">La chiesa </h3>
+                        <p class="card-text"> descrizione</p>
+                        <a href="#contatti" class="btn btn-primary">Altre info</a>
+                      </div>
+                    </div>
+                  </div>
+                      <div class="col-md-6">
+                        <div class="card card-servizio text-center border-0">
+                          <div id="carouselServizio2" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./assets/img/cantina.jpeg" class="card-img-top" alt="Servizio 1">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/img/cantina.jpeg" class="card-img-top" alt="Servizio 2">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/img/chiesa.jpeg" class="card-img-top" alt="Servizio 3">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselServizio2" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden"></span>  <!-- precedente  -->
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselServizio2" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden"></span> <!-- next -->
+                            </button>
+                          </div>
+                          <div class="card-body">
+                            <h3 class="card-title fw-bold mb-3">Il recinto</h3>
+                            <p class="card-text">descrizione </p>
+                        </div>
+                      </div>
+                      </div>
+                     
                 </section>
 
 
@@ -214,7 +276,9 @@
                                 <option>Battesimo</option>
                                 <option>Matrimonio</option>
                                 <option>Comunione</option>
+                                <option>Cresima</option>
                                 <option>Gestione della Cappella</option>
+                                <option>Altro</option>
                               </select>
                              <div class="form-group">
                               <select class="form-control mt-3" name="pasto">
@@ -278,9 +342,19 @@
                         </div>
                       </div>
                     </div>
+                    
                   </footer>
                   
-                  
+      <script> $('a[href^="#"]').on('click', function(event) {
+        var target = $(this.getAttribute('href'));
+        if (target.length) {
+            event.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top
+            }, 1000);
+        }
+      });</script>  
+      <div id="wufoo-z10o4nje161h3pg"> Fill out my <a href="https://marchesani1998.wufoo.com/forms/z10o4nje161h3pg">online form</a>. </div> <script type="text/javascript"> var z10o4nje161h3pg; (function(d, t) { var s = d.createElement(t), options = { 'userName':'marchesani1998', 'formHash':'z10o4nje161h3pg', 'autoResize':true, 'height':'981', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { z10o4nje161h3pg = new WufooForm(); z10o4nje161h3pg.initialize(options); z10o4nje161h3pg.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script>          
 </body>
   
  
