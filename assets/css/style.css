@@ -264,7 +264,7 @@
           font-size: 40px; 
         }
         footer{
-          background: linear-gradient(to bottom, #e0d6b7, #d0b080 25%, #bb8a56 50%, #a36a35 75%,rgb(175, 77, 46));
+          background: linear-gradient(to bottom, #e0d6b7, #d0b080 25%, #bb8a56 50%, #a36a35 75%,rgb(183, 115, 70));
 
 
         }
@@ -281,6 +281,8 @@
           box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.5);
           border-radius: 70%;
         }
+       
+        
         
         
        

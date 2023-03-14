@@ -60,29 +60,59 @@
     </section>
     <section id="chisiamo">
       <h2 class="text-center">La nostra storia</h2>
-      <div class="container  style="width: 100%;>
-        <div class="book">
+      <div class="container">
+        <div class="book d-none d-md-block">
           <div id="pages" class="pages">
+            <!-- desktop view -->
             <div class="page">
               <img src="./assets/img/testo4.jfif" alt="descrizione_immagine" style="max-width: 100%;"> 
             </div>
-           
             <div class="page">
-              <img src="./assets/img/testo3.jfif" alt="descrizione_immagine" style="max-width: 100%;">
-             
-              </div>
-            <div class="page">
-              <img src="./assets/img/testo2.jfif" alt="descrizione_immagine" style="max-width: 100%;">
+              <img src="./assets/img/testo3.jfif" alt="descrizione_immagine" style="max-width: 100%;"> 
             </div>
-
+            <div class="page">
+              <img src="./assets/img/testo2.jfif" alt="descrizione_immagine" style="max-width: 100%;"> 
+            </div>
             <div class="page">
               <img src="./assets/img/testo1.jfif" alt="descrizione_immagine" style="max-width: 100%;"> 
-           </div>
-           <div class="page">
-            <img src="./assets/img/canva.png" alt="descrizione_immagine" style="max-width: 100%;"> 
+            </div>
+            <div class="page">
+              <img src="./assets/img/canva.png" alt="descrizione_immagine" style="max-width: 100%;"> 
+            </div>
           </div>
-         </div>
         </div>
+      
+        <div class="card card-servizio text-center border-0 d-block d-md-none">
+          <div id="carouselServizio2" class="carousel slide"  data-bs-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/canva.png" class="card-img-top" alt="Servizio 1">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/testo1.jfif" class="card-img-top" alt="Servizio 2">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/testo2.jfif" class="card-img-top" alt="Servizio 3">
+              </div>
+              <div class="carousel-item ">
+                <img src="./assets/img/testo3.jfif" class="card-img-top" alt="Servizio 4">
+              </div>
+              <div class="carousel-item ">
+                <img src="./assets/img/testo4.jfif" class="card-img-top" alt="Servizio 5">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselServizio2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>  <!-- precedente  -->
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselServizio2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span> <!-- next -->
+            </button>
+            
+           
+      
+  
      </section>
 
 
@@ -344,6 +374,7 @@
                     </div>
                     
                   </footer>
+
                   
       <script> $('a[href^="#"]').on('click', function(event) {
         var target = $(this.getAttribute('href'));
@@ -354,7 +385,17 @@
             }, 1000);
         }
       });</script>  
-      <div id="wufoo-z10o4nje161h3pg"> Fill out my <a href="https://marchesani1998.wufoo.com/forms/z10o4nje161h3pg">online form</a>. </div> <script type="text/javascript"> var z10o4nje161h3pg; (function(d, t) { var s = d.createElement(t), options = { 'userName':'marchesani1998', 'formHash':'z10o4nje161h3pg', 'autoResize':true, 'height':'981', 'async':true, 'host':'wufoo.com', 'header':'show', 'ssl':true }; s.src = ('https:' == d.location.protocol ?'https://':'http://') + 'secure.wufoo.com/scripts/embed/form.js'; s.onload = s.onreadystatechange = function() { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; try { z10o4nje161h3pg = new WufooForm(); z10o4nje161h3pg.initialize(options); z10o4nje161h3pg.display(); } catch (e) { } }; var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr); })(document, 'script'); </script>          
+       <script>
+        $('.carousel-control-prev').click(function() {
+          $('#carouselServizio2').carousel('prev');
+        });
+      
+        $('.carousel-control-next').click(function() {
+          $('#carouselServizio2').carousel('next');
+        });
+      </script>
+
+      
 </body>
   
  
