@@ -30,7 +30,16 @@
     background: url('../img/big.images.jpg');
     background-size:cover;
     position:relative;
+   }
+/* stile per dispositivi mobili */
+@media (max-width: 767px) {
+  .bgimage {
+    background-image: url('../img/cover.img.png'); /* sostituisci con l'immagine mobile */
+  }
 }
+
+
+
 /* text css above hero image*/
 .hero_title {
     font-size: 2.5rem;
@@ -263,14 +272,16 @@
           color: #E4405F;
           font-size: 40px; 
         }
+        
         footer{
-          background: linear-gradient(to bottom, #e0d6b7, #d0b080 25%, #bb8a56 50%, #a36a35 75%,rgb(183, 115, 70));
+          background: linear-gradient(to bottom, #e0d6b7, #d0b080 25%, #bb8a56 50%,rgb(187, 129, 90));
 
 
         }
         #footer * {
           color:black;
         }
+        
         .card {
           margin-top: 20px;
           margin-bottom: 20px;
@@ -280,6 +291,9 @@
           border: 3px solid #000;
           box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.5);
           border-radius: 70%;
+        }
+        .book {
+          padding-bottom:80px;
         }
        
         
